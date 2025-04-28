@@ -1,0 +1,90 @@
+# Ignore Visual Studio temporary files, build results, and
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Generated_Code/
+
+# Debug/Release folders
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+ARM/
+bld/
+[Bb]in/
+
+# NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+*.nuspec
+
+# MSBuild Binary and Log Files
+*.log
+*.tlog
+*.sdf
+*.cache
+*.dbmdl
+*.bak
+
+# SQLite Database Files
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+
+# Rider
+.idea/
+
+# DotCover
+.idea/.idea.DotSettings
+
+# Test Results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+out/
+artifacts/
+
+# Local History for Rider or VS
+.localhistory/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Windows image file caches
+ehthumbs.db
+ehthumbs_vista.db
+
+# Other system files
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+
+# Auto-generated JSON or Settings
+launchSettings.json
+appsettings.Development.json
+
+# ASP.NET runtime generated
+wwwroot/
+
+# Azure DevOps
+*.tgz
+.env
+.env.*

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: problem-tracker-api
+    env: dotnet
+    plan: free
+    branch: main
+    buildCommand: dotnet build
+    startCommand: dotnet run --no-launch-profile --urls=http://0.0.0.0:10000
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://0.0.0.0:10000

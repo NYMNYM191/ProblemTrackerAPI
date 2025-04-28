@@ -1,0 +1,6 @@
+@ProblemTrackerAPI_HostAddress = http://localhost:5264
+
+GET {{ProblemTrackerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
