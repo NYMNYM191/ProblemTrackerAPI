@@ -8,7 +8,7 @@ COPY . .
 RUN dotnet restore
 
 # ติดตั้ง EntityFrameworkCore เพิ่ม
-RUN dotnet add ProblemTrackerAPI/ProblemTrackerAPI.csproj package Microsoft.EntityFrameworkCore --version 5.0.17
+RUN dotnet add ProblemTrackerAPI/ProblemTrackerAPI.csproj package Microsoft.EntityFrameworkCore --version 9.0.4
 
 # แล้วค่อย Build
 RUN dotnet build -c Release -o /app/build
